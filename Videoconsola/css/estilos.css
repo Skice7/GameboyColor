@@ -1,0 +1,218 @@
+body{
+    background-color: antiquewhite;
+}
+
+/*box1 es toda la consola*/
+.box1{
+
+    display: grid;
+    width: 500px;
+    height: 800px;
+    background-color:rgb(255, 127, 81);
+    margin: auto;
+    margin-top: 7vh;
+    margin-bottom: 1vh;
+    border-radius: 2vh 2vh 7vh 7vh;
+}
+
+.centrocruceta{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    text-align: center;
+    top:-80px;
+    left:90px;
+    text-align: center;
+    color: white;
+}
+.flecharriba{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    text-align: center;
+    top:-80px;
+    left:90px;
+    color: white;
+}
+
+.flechaizquierda{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    top:-112px;
+    left:60px;
+    color: white;
+}
+.flechaderecha{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    top:-142px;
+    left:125px;
+    color: white;
+
+}
+.flechabajo{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    text-align: center;
+    top:-140px;
+    left:90px;
+    color: white;
+}
+
+.centrarflechas{
+    position: relative;
+    top:8px;
+   
+}
+.centrarpunto{
+    position: relative;
+    top:10px;
+   
+}
+   
+.botonA{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 100px;
+    top:-230px;
+    left: 370px;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+.botonB{
+    
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 100px;
+    top:-241px;
+    left: 300px;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+
+.centrarboton{
+    position: relative;
+    top:10px;
+}
+
+.botonselect{
+    position: relative;
+    width: 45px;
+    height: 15px;
+    background-color: black;
+    border-radius: 100px;
+    top:-150px;
+    left: 180px;
+    
+   
+}
+
+.botonstart{
+    position: relative;
+    top:-165px;
+    left: 250px;
+}
+
+.puntooos{
+    position: relative;
+    top:-150px;
+    left: 380px;
+    font-size: 40px;
+}
+.marginpuntooos{
+    margin-top: -35px;
+}
+/*box2 es la parte negra de alrededor de la pantalla*/
+.box2{
+
+    position: relative;
+    width: 450px;
+    height: 380px;
+    background-color:black;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 120px;
+    border-radius:10px;
+    border: 3px solid black;
+    border-radius: 20px 20px 40px 40px;
+    color: white;
+}
+
+.NombreConsola{
+    position: relative;
+    color: rgb(166, 166, 255);
+    top:310px;
+    left:120px;
+    font-size: 30px;
+}
+/* Le ponemos margen al span */
+.margenspan{
+    margin: -3px;
+}
+.ColorC{
+color: Red;
+}
+.ColorO{
+    color: rgb(255, 0, 255);
+}
+.ColorL{
+    color: green;
+}
+.ColorO2{
+
+    color: yellow;
+}
+
+.ColorR{
+
+    color: rgb(61, 61, 255);
+}
+
+.power{
+    position: relative;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    top:130px;
+    left:10px;
+}
+.botonpower{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 100px;
+    top:120px;
+    left:18px;
+
+}
+
+/*box3 es la pantalla en blanco*/
+.box3{
+    position: relative;
+    width: 350px;
+    height: 240px;
+    background-color:white;
+    margin: auto;
+    margin-top: -460px;
+    margin-bottom:10px;
+    border-radius:10px;
+    border: 1px solid black;
+}
+
